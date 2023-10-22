@@ -1,4 +1,4 @@
-- Hi, I’m <a href="https://www.linkedin.com/in/v-yashwanth-raj-6b23341bb">@YashwanthRaj</a> , An Engineering Student . 
+- Hi, I’m <a href="https://www.linkedin.com/in/v-yashwanth-raj/">@YashwanthRaj</a> , An Engineering Student . 
 - I’m interested in Python , JAVA Programming , Arduino and Cloud Engineering.
 - I’m currently learning Electronics And Computer Engineering
 - How to reach me yashwanthraj6383@gmail.com
