@@ -334,6 +334,40 @@ section {
 
 /* EXPERIENCE SECTION */
 
+/* NEW */
+
+.experience-details-container-new {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 30px;
+}
+
+.about-containers-new {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+  gap: 20px;
+  width: 100%;
+}
+
+.details-container-new {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  border-radius: 8px;
+  width: 100%; /* Make each container occupy the full available width */
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .about-containers-new {
+    grid-template-columns: 1fr; /* 1 item per row on smaller screens */
+  }
+}
+/* NEW */
+
+
 #experience {
   position: relative;
 }
