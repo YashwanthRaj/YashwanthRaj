@@ -1,8 +1,6 @@
 ## Hi there, I'm Yashwanth Raj Varadharajan! 👋
 I am a graduate student pursuing a Master of Science in Computer Science at George Washington University, with a strong background in computer science and extensive experience leading technical projects. My expertise spans software engineering, machine learning, and problem-solving.
 
-I am passionate about applying theoretical knowledge to practical solutions, and my professional journey has equipped me with hands-on experience in Agile methodologies, effective team coordination, and workplace management. I approach every project with a positive attitude, strong work ethic, and a commitment to aligning long-term goals with job requirements.
-
 Website: https://yashwanthraj.github.io/YashwanthRaj/
 
 Skills:
