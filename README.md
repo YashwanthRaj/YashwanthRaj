@@ -1,7 +1,7 @@
 ## Hi there, I'm Yashwanth Raj Varadharajan! 👋
 I am a graduate student pursuing a Master of Science in Computer Science at George Washington University, with a strong background in computer science and extensive experience leading technical projects. My expertise spans software engineering, machine learning, and problem-solving.
 
-Website: https://yashwanthraj.github.io/YashwanthRaj/
+Website: yashwanthraj.github.io/YashwanthRaj/
 
 Skills: <br>
 Programming Languages: Swift, Python, JavaScript, SQL, R <br>
