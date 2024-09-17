@@ -3,12 +3,12 @@ I am a graduate student pursuing a Master of Science in Computer Science at Geor
 
 Website: https://yashwanthraj.github.io/YashwanthRaj/
 
-Skills:
-Programming Languages: Swift, Python, JavaScript, SQL, R
-Tools: Oracle, Power BI, Microsoft Excel, Git, MATLAB, Firebase, MongoDB
-Machine Learning: Python, Scikit-learn, Numpy, NLP, CNN, Computer Vision
-Design and Development: HTML, CSS, JavaScript, NodeJS, UI/UX Design
-Soft Skills: Critical Thinking, Leadership, Creativity, Time Management, Networking, Adaptability, Communication
+Skills: <br>
+Programming Languages: Swift, Python, JavaScript, SQL, R <br>
+Tools: Oracle, Power BI, Microsoft Excel, Git, MATLAB, Firebase, MongoDB <br>
+Machine Learning: Python, Scikit-learn, Numpy, NLP, CNN, Computer Vision <br>
+Design and Development: HTML, CSS, JavaScript, NodeJS, UI/UX Design <br>
+Soft Skills: Critical Thinking, Leadership, Creativity, Time Management, Networking, Adaptability, Communication <br>
 
 Interests:
 Outside of my professional life, I am passionate about badminton, sailing, swimming, and ice skating.
