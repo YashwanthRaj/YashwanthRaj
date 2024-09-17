@@ -5,12 +5,12 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  /* font-family: "Poppins", sans-serif; */
-  /* font-family: "Calibri", sans-serif; */
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  font-family: 'Poppins', Calibri, Georgia, 'Times New Roman', serif;
 }
 
 html {
@@ -328,13 +328,18 @@ section {
 }
 
 .about-paragraph {
-  font-size: 1.3rem;
+  font-size: 1.05rem;
   margin-bottom: 1rem;
 }
 
 /* EXPERIENCE SECTION */
 
 /* NEW */
+
+.experience-paragraph {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
 
 .experience-details-container-new {
   display: flex;
@@ -345,18 +350,18 @@ section {
 
 .about-containers-new {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+  grid-template-columns: repeat(3, 1fr); /* 2 items per row */
   gap: 20px;
   width: 100%;
 }
 
 .details-container-new {
-  background-color: #fff;
   padding: 20px;
   border: 1px solid #ddd;
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
   border-radius: 8px;
   width: 100%; /* Make each container occupy the full available width */
+  background-color: #ffffffac;
   box-sizing: border-box;
 }
 
@@ -367,7 +372,6 @@ section {
 }
 /* NEW */
 
-
 #experience {
   position: relative;
 }
@@ -376,6 +380,19 @@ section {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experience-sub-title-level-3 {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.experience-list-elements {
+  margin-left: 2rem;
+  margin-right: 2rem;
   margin-bottom: 2rem;
 }
 
