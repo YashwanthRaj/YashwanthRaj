@@ -6,9 +6,9 @@ Website: https://yashwanthraj.github.io/YashwanthRaj/
 Google Scholar: https://scholar.google.com/citations?user=OtbodrAAAAAJ&hl=en
 
 Skills: <br>
-Programming Languages: Swift, Python, JavaScript, SQL, R <br>
-Tools: Oracle, Power BI, Microsoft Excel, Git, MATLAB, Firebase, MongoDB <br>
-Machine Learning: Python, Scikit-learn, Numpy, NLP, CNN, Computer Vision <br>
+Programming Languages: JavaScript, SwiftUI, HTML, CSS, Python, SQL, R <br>
+Tools: Power BI, Microsoft Excel, Oracle, git, GitHub, UI/UX Figma, MATLAB, NodeJS, Xcode, React, PostgreSQL <br>
+Machine Learning: Regression, Classification, Scikit-learn, Numpy, NLP, CNN, Computer Vision  <br>
 Design and Development: HTML, CSS, JavaScript, NodeJS, UI/UX Design <br>
 Soft Skills: Critical Thinking, Leadership, Creativity, Time Management, Networking, Adaptability, Communication <br>
 
