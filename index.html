@@ -1,160 +1,473 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yashwanth Raj</title>
-    <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
-  </head>
-  <body>
-    <nav id="desktop-nav">
-      <div class="logo">Yashwanth Raj</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="profile.html">Profile</a></li>
-        </ul>
-      </div>
-    </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">Yashwanth Raj Varadharajan</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Yashwanth Raj Varadharajan</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#experience" class="nav-link">Experience</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#publications" class="nav-link">Publications</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#education" class="nav-link">Education</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
         </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-          <li><a href="profile.html" onclick="toggleMenu()">Profile</a></li>
+        <div class="nav-button">
+            <a href="assets/RESUME.pdf">
+                <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+            </a>
         </div>
-      </div>
-    </nav>
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/MyPhotos/Me3.png" alt="Yashwanth profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Yashwanth Raj Varadharajan</h1>
-        <p class="section__text__p2">Developer | Analyst</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/RESUME.pdf')"
-          >
-            Resume
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='#contact'">
-            Contact Info
-          </button>
-        </div>
-      </div>
-    </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/MyPhotos/4.png"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div>
-        <div class="about-details-container">
-          <div class="text-container">
-            <p class="about-paragraph">
-              I am a graduate student pursuing Master of Science in Computer Science degree at George Washington University. With a background in computer science and extensive experience in technical projects and publications, I bring expertise in software engineering, Machine Learning and problem-solving.
-            </p>
-            <p class="about-paragraph">
-              Skills: <br>
-              * Programming Languages: JavaScript, SwiftUI, HTML, CSS, Python, SQL, R. <br>
-              * Tools: Power BI, Microsoft Excel, Oracle, git, GitHub, UI/UX Figma, MATLAB, NodeJS, Xcode, React, PostgreSQL. <br>
-              * Machine Learning: Python, Scikit-learn, Numpy, NLP, CNN, and Computer Vision. <br>
-              * Design and Development: HTML, CSS, JavaScript, NodeJS, UI/UX Design. <br>
-              * Soft Skills: Critical Thinking, Leadership, Creativity, Time Management, Networking, Adaptability, Communication. <br>
-            </p>
-            <p class="about-paragraph">
-              Graduating in May 2025, I'm eager to apply my technical skills and positive attitude to a career in software development, data analytics, or machine learning. If you're looking for someone who combines technical prowess with creativity and a human touch, let's connect and explore how we can create something amazing together!
-            </p>
-            <button class="btn-aboutMe btn-color-2" onclick="location.href='profile.html'">
-              Learn More
-            </button>
-          </div>
-        </div>
-      </div>
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:yashwanthraj6383@gmail.com">yashwanthraj6383@gmail.com</a></p>
-        </div>
-        <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://www.linkedin.com/in/v-yashwanth-raj/'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/YashwanthRaj'"
-          /> 
-          <img
-            src="./assets/GoogleScholarIcon.png"
-            alt="My Google Scholar profile"
-            class="icon"
-            onclick="location.href='https://scholar.google.com/citations?user=OtbodrAAAAAJ&hl=en'"
-          /> 
-          <img
-            src="./assets/twitter.png"
-            alt="My Twitter profile"
-            class="icon"
-            onclick="location.href='https://twitter.com/Yashwanth_Raj27'"
-          /> 
-          <img
-            src="./assets/facebook.png"
-            alt="My facebook profile"
-            class="icon"
-            onclick="location.href='https://www.facebook.com/yashwanth.raj.14019/'"
-          /> 
-          <img
-            src="./assets/instagram.png"
-            alt="My instagram profile"
-            class="icon"
-            onclick="location.href='https://www.instagram.com/times_of_yashwanth?igsh=aWF2eXU4ZGphbXBn'"
-          /> 
-        </div>
-      </div>
-    </section>
-    <footer> 
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#profile">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="profile.html">Profile</a></li>
-          </ul>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
         </div>
       </nav>
-      <p>© 2024 Yashwanth Raj Varadharajan. Crafted with passion.</p>
-      <br>
-      <br>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <!-- <div class="featured-text-card">
+                <span>John Doe</span>
+            </div> -->
+            <div class="featured-name">
+                <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>I am a graduate student pursuing Master of Science in Computer Science degree at George Washington University. With a background in computer science and extensive experience in technical projects and publications, I bring expertise in software engineering, Data Analysis and problem-solving.
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <a href="assets/RESUME.pdf">
+                    <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+                </a>
+            </div>
+            <div class="social_icons">
+                <div class="icon"><a href="https://github.com/YashwanthRaj"><i class="uil uil-github-alt"></i></a></div>
+                <div class="icon"><a href="https://scholar.google.com/citations?user=OtbodrAAAAAJ&hl=en"><i class="uil uil-google"></i></a></div>
+                <div class="icon"><a href="https://www.linkedin.com/in/v-yashwanth-raj/"><i class="uil uil-linkedin-alt"></i></a></div>
+                <div class="icon"><a href="https://twitter.com/Yashwanth_Raj27"><i class="uil uil-twitter-alt"></i></a></div>
+                <div class="icon"><a href="https://www.facebook.com/yashwanth.raj.14019/"><i class="uil uil-facebook"></i></a></div>
+                <div class="icon"><a href="https://www.instagram.com/times_of_yashwanth?igsh=aWF2eXU4ZGphbXBn"><i class="uil uil-instagram"></i></a></div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/MyPhotos/Me3.png" alt="avatar">
+            </div>
+          </div>
+
+       </section>
+
+
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info-left">
+                    <h3>Core Competencies</h3>
+                    <p>
+                        With a strong foundation in software development, machine learning, and data analytics, I bring a wealth of expertise to any professional environment. My experience in leading technical projects, coupled with proficiency in programming and agile methodologies, enables me to drive innovation and deliver high-quality results. I am dedicated to fostering collaboration and effectively coordinating teams to achieve shared goals.
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Languages</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>JavaScript</span>
+                        <span>SwiftUI</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap</span>
+                        <span>SQL</span>
+                        <span>R</span>
+                        <span>React</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Tools</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>NodeJS</span>
+                        <span>Oracle</span>
+                        <span>PowerBI</span>
+                        <span>XCode</span>
+                        <span>UI/UX Figma</span>
+                        <span>Git</span>
+                        <span>Github</span>
+                        <span>Microsoft Excel</span>
+                    </div>
+                </div>
+                <!-- <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Database</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>MySQL</span>
+                        <span>PostgreSQL</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div> -->
+            </div>
+          </div>
+       </section>
+       
+       <!-- -------------- Experience BOX ---------------- -->
+       <section class="section" id="experience">
+        <div class="top-header">
+          <h1>Experience</h1>
+        </div>
+        <div class="about-info-left">
+            <h3>Parkli</h3>
+            <h4>Front End Lead</h4>
+            <h4>July 2024 - Present 2024</h4>
+            <p>
+                * Lead a team of 7 developers in designing and building the user interface for a cutting-edge parking reservation app <br>
+                * Oversee UI/UX design process, from wireframing to final implementation in SwiftUI <br>
+                * Make key architectural decisions for front-end development, ensuring scalability and performance <br>
+                * Collaborate with product managers to define and prioritize feature development <br>
+                * Ensure code quality and consistency through code reviews and implementation of coding standards <br>
+                * Drive adoption of new technologies and methodologies to improve development efficiency <br>
+            </p>
+            <br>
+            <h4>iOS Software Developer</h4>
+            <h4>March 2024 - July 2024</h4>
+            <p>
+                * Developing full-stack solutions for iOS mobile application, utilizing SwiftUI, Firebase, and Docker technologies. <br>
+                * Collaborating closely with a dynamic team to develop an innovative parking reservation application, contributing to both server-side and client-side functionalities. <br>
+                * Designing wireframes in Figma and integrating them into SwiftUI codebase, enhancing user interface components and adhering to UI/UX principles. <br>
+                * Implementing user authentication and backend API services using Firebase, ensuring secure and reliable access to application features. <br>
+                * Creating CI/CD pipelines using Jenkins and GitHub Actions, streamlining version iteration processes and improving development efficiency. <br>
+                * Optimizing data retrieval and transfer using Core Data, ensuring seamless performance and reliable data management for the application's reservation system.
+            </p>
+        </div>
+
+        <br>
+
+        <div class="about-info-left">
+            <h3>Access Healthcare Services</h3>
+            <h4>Associate Developer Intern</h4>
+            <h4>April 2023 - June 2023</h4>
+            <p>
+                * Contributed to AccessHealthcare's initiatives by leveraging expertise in software engineering, machine learning, and robotic process automation. <br>
+                * Played a pivotal role in the development and implementation of the Echocode and Echobot Applications, facilitating streamlined automation processes within the organization.<br>
+                * Developed and automated Echobot, a comprehensive RCM process automation suite capable of creating on-the-go automation use cases and seamlessly integrating with various industry-leading automation frameworks, driving further efficiencies within the organization.<br>
+                * Achieved a notable reduction in RCM (Revenue Cycle Management) implementation time through collaborative efforts on Echo Applications, showcasing a strong understanding of software engineering principles and their practical applications.<br>
+                * Contributed significantly to the RParser Project, overseeing the development and training of models to extract resumes and classify them into predefined roles, optimizing the recruitment process and aligning candidates with suitable positions.<br>
+                * Applied machine learning techniques to classify medical bills based on their content, enhancing the accuracy and speed of billing processes while ensuring compliance with industry standards.
+            </p>
+        </div>
+
+        <br>
+
+        <div class="about-info-left">
+            <h3>Finlatics</h3>
+            <h4>Business Analyst Intern</h4>
+            <h4>Oct 2022 - Dec 2022</h4>
+            <p>
+                * Utilized Power BI and Excel for in-depth analysis of financial data. <br>
+                * Conducted comprehensive research on market trends and investment opportunities. <br>
+                * Collaborated with team members to develop data-driven investment strategies. <br>
+                * Provided actionable insights to clients for optimizing their investment portfolios. <br>
+                * Successfully completed projects focused on risk assessment and financial forecasting. <br>
+                * Contributed to the development of innovative financial models and tools. <br>
+                * Communicated complex financial concepts effectively to clients and stakeholders. <br>
+                * Played a key role in driving business growth through informed decision-making mini projects.
+            </p>
+        </div>
+
+
+     </section>
+       
+     <!-- -------------- Publication BOX ---------------- -->
+     <section class="section" id="publications">
+        <div class="top-header">
+          <h1>Publications</h1>
+        </div>
+
+        <div class="about-info-left">
+            <h3>Machine learning based side channel power attack analysis of VLSI implementations in microgrids</h3>
+            <h4>Advances in Microgrid Technologies (pages 185 - 213). Elsevier</h4>
+            <a href="https://doi.org/10.1016/B978-0-443-22187-3.00008-4"><h4 class="anchor-link" style="padding-bottom: 4px ;">DOI: 10.1016/B978-0-443-22187-3.00008-4</h4></a>
+            <p>
+                A side-channel attack (SCA) in cryptography is any attack that relies on the evaluation of measurements connected to the actual physical implementation of a system. Attacks on electronic equipment may go beyond conventional cryptanalysis to find cryptographic keys or other secrets; side-channel analysis is a different type of attack that takes advantage of information that leaks from physical implementations of, for example, cryptographic equipment. There are two types of side-channel attack that can be performed—profiling and nonprofiling attacks. This work comes under the nonprofiling type, where it uses the target's power consumption details to perform the attack. It checks the applications of machine learning algorithms in SCA. It first compares the accuracy of every machine learning metric for random forest implementation. In order to accomplish this, the issue of examining the relationship between power usage and encryption key is formalized as a supervised learning assignment. Here, the keys are encrypted using a cipher method called PRESENT and the work checks how close it can get to identify the keys. Each byte of the 8-bit key can have 256 values. Out of all such possible keys, the one right key must be found from the implementation under attack.
+            </p>
+        </div>
+
+     </section>
+     
+     <!-- -------------- PROJECT BOX ---------------- -->
+
+       <section class="section" id="projects">
+          <div class="top-header">
+              <h1>Projects</h1>
+          </div>
+          <div class="row" style="padding-bottom: 50px;">
+            <div class="col">
+                <div class="about-info-left">
+                    <h3>BetterRest iOS Application</h3>
+                    <p>
+                        This iOS application designed to improve sleep quality by leveraging machine learning algorithms. The app analyzes user sleep data using various models, including Random Forest, Decision Tree, Boosted Tree, and Linear Regression, to predict optimal sleep times. A unique Automatic option allows the app to select the best algorithm automatically, with an average Root Mean Squared Error (RMSE) of 170 seconds, ensuring high prediction accuracy. The project also focused on optimizing performance by reducing the model size to just 545 bytes using Create ML, efficiently capturing key data relationships while maintaining minimal storage requirements.
+                    </p>
+                    <br>
+                    <a href="https://github.com/YashwanthRaj/BetterRest.git">
+                        <button class="btn">Learn More</button>
+                    </a> 
+                </div>
+            </div>
+            <div class="col">
+                <div class="about-info-left">
+                    <h3>Supplier Management Application</h3>
+                    <p>
+                      A web application using Oracle Apex to help a grocery store efficiently manage its relationships with suppliers. The application tracks supplier details such as names, contact information, and the products they provide, ensuring a steady and organized supply of goods. This project focused on streamlining supplier management processes and improving data accessibility through a user-friendly interface and database integration. Additionally, it includes features for tracking order history and performance metrics, enabling better decision-making and fostering stronger supplier partnerships. The intuitive design enhances user experience, allowing staff to quickly access and update supplier information as needed.
+                    </p>
+                    <br>
+                      <a href="https://github.com/YashwanthRaj/Supplier-Management-Database">
+                          <button class="btn">Learn More</button>
+                      </a>
+                </div>
+            </div>
+          </div>
+          
+          <div class="row" style="padding-bottom: 50px;">
+            <div class="col">
+                <div class="about-info-left">
+                    <h3>Cloud Based Military Surveillance Robot</h3>
+                    <p>
+                        This project presents a modern approach for surveillance at remote and border areas using multifunctional robot based on cloud, used in defense and military applications. It has ability to substitute the solider at border area to provide surveillance. We have used Arduino UNO ,ESP32 Camera, ESP8266 (NodeMCU) Wi-Fi module and sensors like Ultrasonic Sensor Photoresistor, Temperature and Gas sensors. This bot has a video streaming functionality which is carried out by cloud connected Wi-Fi camera. When constructed, It weighs less than a kilogram and can travel in uneven terrains.
+                    </p>
+                    <br>
+                    <a href="https://www.linkedin.com/in/v-yashwanth-raj/details/projects/">
+                        <button class="btn">Learn More</button>
+                    </a> 
+                </div>
+            </div>
+            <div class="col">
+                <div class="about-info-left">
+                    <h3>Tarzan Book Analysis</h3>
+                    <p>
+                      Conducted a comprehensive text analysis on the first 15 chapters of *Tarzan of the Apes* by Edgar Rice Burroughs as part of an Introduction to Data Analytics course. This project involved preprocessing the text by removing punctuation, applying lowercase conversion, and stemming, which significantly improved the clarity of results. Key methods used included generating word clouds to represent word frequency, performing sentiment analysis to track emotional trends across the chapters, and utilizing tools like VCorpus, DocumentTermMatrix, and TF-IDF for deeper insights.
+                    </p>
+                    <br>
+                      <a href="https://github.com/YashwanthRaj/Text-Analytics-in-R">
+                          <button class="btn">Learn More</button>
+                      </a>
+                </div>
+            </div>
+          </div>
+          
+          <div class="row" style="padding-bottom: 50px;">
+            <div class="col">
+                <div class="about-info-left">
+                    <h3>CardsApp</h3>
+                    <p>
+                        Developed an engaging card game mobile application for the iOS platform, where players compete against a CPU opponent. The app dynamically updates the score based on the outcome of each match, offering an intuitive and competitive user experience. This project involved implementing game logic, real-time score tracking, and optimizing performance for smooth gameplay on iOS devices.
+                    </p>
+                    <br>
+                    <a href="https://github.com/YashwanthRaj/CardsApp">
+                        <button class="btn">Learn More</button>
+                    </a> 
+                </div>
+            </div>
+            <div class="col">
+              <div class="about-info-left">
+                  <h3>GuessTheFlag</h3>
+                  <p>
+                    Designed and developed an iOS quiz application that presents users with three flags and challenges them to select the correct one. The app tracks and updates the user's score throughout the game, offering a fun and educational experience. This project involved implementing intuitive user interfaces, real-time score management, and interactive gameplay on the iOS platform.
+                  </p>
+                  <br>
+                    <a href="https://github.com/YashwanthRaj/GuessTheFlag">
+                        <button class="btn">Learn More</button>
+                    </a>
+              </div>
+          </div>
+          </div>
+          
+          <div class="row">
+            <div class="col">
+                <div class="about-info-left">
+                    <h3>Password Strength Analyzer Using SVM</h3>
+                    <p>
+                        A web application that detects the strength of the password entered, based on various parameters such as the presence of uppercase letters, numerical characters, special characters, and the length of the password. To achieve this, we used Support Vector Machine (SVM) due to its working efficiency with high-dimensional data. When deployed, the system accurately displayed the strength of the entered password and prompted the user to enter a new password when the entered password is weak. Additionally, the application provides users with suggestions for creating stronger passwords, enhancing overall security.
+                    </p>
+                    <br>
+                    <a href="https://www.linkedin.com/in/v-yashwanth-raj/details/projects/">
+                        <button class="btn">Learn More</button>
+                    </a> 
+                </div>
+            </div>
+            <div class="col">
+              <div class="about-info-left">
+                  <h3>ML based Crop disease Detection</h3>
+                  <p>
+                    The proposed system's main approach is to detect crop diseases using diagnosis and detection systems based on the Convolutional Neural Network (CNN). We have compared the accuracy of three CNN models: ResNet50, ResNet152V2, and InceptionV3. After testing the models, we conclude that InceptionV3 is the best model for disease detection, with a model accuracy of 95.95% and a model loss of 31.04%. Furthermore, the system can provide real-time recommendations for treatment based on the detected diseases, helping farmers take prompt action to mitigate crop loss.
+                  </p>
+                  <br>
+                    <a href="https://www.linkedin.com/in/v-yashwanth-raj/details/projects/">
+                        <button class="btn">Learn More</button>
+                    </a>
+              </div>
+          </div>
+          </div>
+       </section>
+
+       <!-- -------------- Education BOX ---------------- -->
+       <section class="section" id="education">
+        <div class="top-header">
+          <h1>Education</h1>
+        </div>
+        <div class="row">
+          <div class="col">
+              <div class="about-info">
+                  <h3>Master of Science in Computer Science</h3>
+                  <h4 style="padding-bottom: 4px;">George Washington University</h4>
+                  <p style="padding-bottom: 3px;"><strong>CGPA :</strong> 3.8</p>
+                  <p style="padding-bottom: 3px;"><strong>Activities and societies :</strong> University Badminton Team</p>
+                  <p>Design and Analysis of Algorithms, Advanced Software Paradigms, Computer Architecture, Cloud Computing, Database Management System, Intro to Big Data and Analytics, Software Engineering.
+                  </p>
+              </div>
+          </div>
+          <div class="col">
+            <div class="about-info">
+                <h3>Bachelor of Technology in Electronics and Computer Science</h3>
+                  <h4 style="padding-bottom: 4px;">Vellore Institute Of Technology</h4>
+                  <p style="padding-bottom: 3px;"><strong>CGPA :</strong> 3.6</p>
+                  <p style="padding-bottom: 3px;"><strong>Activities and societies :</strong> ATOM Robotics, University Badminton Team</p>
+                  <p>
+                    Problem solving and Object-Oriented Programming, Database Management Systems, Principles of Software Engineering, Data Analytics and Visualization, Data Structures and Algorithms, Cloud and Distributed Computing, Numerical Ability and Cognitive Intelligence.
+                  </p>
+            </div>
+        </div>
+        </div>
+     </section>
+    
+
+       <!-- -------------- CONTACT BOX ---------------- -->
+
+        <section class="section" id="contact">
+            <div class="top-header">
+            <h1>Get in touch</h1>
+            <span>Do you have a project in your mind, contact me here</span>
+            </div>
+            <div class="row">
+            <div class="col">
+                <div class="contact-info">
+                <h2>Find Me</h2>
+                <p><i class="uil uil-envelope"></i> Email: yashwanthraj6383@gmail.com</p>
+                <p><i class="uil uil-phone"></i> Tel: +1 (202) 372 6401</p>
+                <p><i class="uil uil-map-marker"></i> Location: Washington DC, USA</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-control">
+                <div class="form-inputs">
+                    <input type="text" class="input-field" placeholder="Name" required>
+                    <input type="email" class="input-field" placeholder="Email" required>
+                </div>
+                <div class="text-area">
+                    <textarea placeholder="Message" required></textarea>
+                </div>
+                <div class="form-button">
+                    <button class="btn" onclick="sendEmail(event)"><a href="mailto:yashwanthraj6383@gmail.com" class="anchor-link-nodesign">Send <i class="uil uil-message"></i></a></button>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Yashwanth Raj Varadharajan</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#experience">Experience</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#publications">Publications</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#education">Education</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon"><a href="https://github.com/YashwanthRaj"><i class="uil uil-github-alt"></i></a></div>
+            <div class="icon"><a href="https://scholar.google.com/citations?user=OtbodrAAAAAJ&hl=en"><i class="uil uil-google"></i></a></div>
+            <div class="icon"><a href="https://www.linkedin.com/in/v-yashwanth-raj/"><i class="uil uil-linkedin-alt"></i></a></div>
+            <div class="icon"><a href="https://twitter.com/Yashwanth_Raj27"><i class="uil uil-twitter-alt"></i></a></div>
+            <div class="icon"><a href="https://www.facebook.com/yashwanth.raj.14019/"><i class="uil uil-facebook"></i></a></div>
+            <div class="icon"><a href="https://www.instagram.com/times_of_yashwanth?igsh=aWF2eXU4ZGphbXBn"><i class="uil uil-instagram"></i></a></div>
+        </div>
+        <div class="bottom-footer">
+            <p>&copy; 2024 <a href="#home" style="text-decoration: none;">Yashwanth Raj</a> - Crafted with passion.</p>
+        </div>
     </footer>
-    <script src="script.js"></script>
-  </body>
+    </div>
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+</body>
 </html>
