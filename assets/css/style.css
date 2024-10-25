@@ -84,7 +84,9 @@ body{
 
 .container{
     width: 100%;
+    padding: 0 10px; /* Add some padding */
     position: relative;
+    box-sizing: border-box;
 }
 
 h4 {
@@ -577,6 +579,9 @@ footer{
 
 /* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
 @media only screen and (max-width: 900px) {
+    .middle-footer {
+        display: none;
+    }
     .nav-button{
         display: none;
     }
@@ -657,6 +662,18 @@ footer{
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
 
 @media only screen and (max-width: 540px){
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+    }
+    .middle-footer {
+        display: none;
+    }    
+    .contact-info{
+        display: none;
+    }
     .featured-name{
         font-size: 40px;
     }
