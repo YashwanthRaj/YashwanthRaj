@@ -71,7 +71,7 @@
                 Download Resume
             </a> -->
 
-            <a href="assets/resume/RESUME.pdf" download class="btn btn-primary"> Resume </a>
+            <a href="assets/resume/RESUME.pdf" class="btn btn-primary"> Resume </a>
 
 
         </div>              
@@ -102,7 +102,7 @@
                         I will be graduating in May 2025 and am actively looking for opportunities in software development, data analytics, and machine learning. If you're interested in collaborating or learning more about my work, feel free to connect!
                     </p>
                     <!-- <button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button> -->
-                    <a href="assets/resume/RESUME.pdf" download class="btn-rounded btn btn-outline-primary mt-4">
+                    <a href="assets/resume/RESUME.pdf" class="btn-rounded btn btn-outline-primary mt-4">
                         Download Resume
                     </a>
                 </div>              
@@ -483,25 +483,31 @@
         <div class="container text-center">
             <p class="section-subtitle">How can you communicate?</p>
             <h6 class="section-title mb-5">Contact Me</h6>
+
+            
             <!-- contact form -->
             <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
                 <div class="form-row">
                     <div class="form-group col-sm-6">
-                        <input type="text" size="50" class="form-control" placeholder="Your Name" required>                 
+                        <input type="text" size="50" class="form-control" placeholder="Your Name">                 
                     </div>
                     <div class="form-group col-sm-6">
-                        <input type="email" class="form-control" placeholder="Enter Email"requried>                 
+                        <input type="email" class="form-control" placeholder="Enter Email">                 
                     </div>
                     <div class="form-group col-sm-12">
                         <textarea name="comment" id="comment" rows="6"   class="form-control" placeholder="Write Something"></textarea>
                     </div>
                     <div class="form-group col-sm-12 mt-3">
-                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">                  
+                        <button class="btn btn-outline-primary rounded" onclick="sendEmail(event)"><a href="mailto:yashwanthraj6383@gmail.com">Send Message</a></button>
+
                     </div>
                 </div>  
-            </form><!-- end of contact form -->
-        </div><!-- end of container -->
-    </section><!-- end of contact section -->
+            </form> 
+            <!-- end of contact form -->
+
+
+        </div> <!-- end of container -->
+    </section> <!-- end of contact section -->
 
     <!-- footer -->
     <div class="container">
