@@ -11020,6 +11020,12 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 /* contact section */
+.icon-images-contactme-section {
+  width: 24px;
+  height: 24px;
+}
+
+
 .list {
   list-style-type: none;
   padding-left: 0;
