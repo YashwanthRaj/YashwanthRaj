@@ -3,7 +3,7 @@ I am a graduate student pursuing a Master of Science in Computer Science at Geor
 
 LinkedIn: https://www.linkedin.com/in/v-yashwanth-raj/
 <br>
-Website: https://yashwanthraj.github.io/YashwanthRaj/
+Portfolio: https://yashwanthraj.github.io/YashwanthRaj/
 <br>
 Google Scholar: https://scholar.google.com/citations?user=OtbodrAAAAAJ&hl=en
 
