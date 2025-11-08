@@ -6,15 +6,17 @@ LinkedIn: https://www.linkedin.com/in/v-yashwanth-raj/
 Portfolio: https://yashwanthraj.github.io/YashwanthRaj/
 <br>
 Google Scholar: https://scholar.google.com/citations?user=OtbodrAAAAAJ&hl=en
+<br>
 
-Skills: <br>
-Programming Languages: JavaScript, Java, SwiftUI, HTML, CSS, Python, SQL, R <br>
-Tools: Power BI, Microsoft Excel, Oracle, git, GitHub, UI/UX Figma, MATLAB, NodeJS, Spring Boot, Xcode, React, PostgreSQL <br>
-Machine Learning: Regression, Classification, Scikit-learn, Numpy, NLP, CNN, Computer Vision  <br>
-Design and Development: HTML, CSS, JavaScript, NodeJS, UI/UX Design <br>
+Key Expertise: <br>
+Languages: Java, JavaScript, Python, SQL, SQL, Swift <br>
+Frontend: React.js, SwiftUI, HTML, CSS <br>
+Backend & APIs: Node.js, Express.js, Java Spring Boot, RESTful APIs, axios <br>
+Databases & Storage: PostgreSQL, Firebase (Firestore), ChromaDB (vector store) <br>
+Artificial Intelligence : OpenAI (GPT-4 / GPT-4o), PaLM 2, Llama 3, LangChain, Hugging Face, prompt engineering, Streamlit, Groq <br>
+DevOps: Docker, Jenkins, GitHub Actions, GitHub Pages, Replit <br>
+Design & Prototyping: Figma, Canva, UI/UX implementation <br>
 Soft Skills: Critical Thinking, Leadership, Creativity, Time Management, Networking, Adaptability, Communication <br>
 
 Interests:
 Outside of my professional life, I am passionate about badminton, sailing, swimming, and ice skating.
-
-I will be graduating in May 2025 and am eager to embark on a career in software development, data analytics, and machine learning. Feel free to explore my projects and connect with me if my profile intrigues you!
