@@ -1,5 +1,5 @@
 ## Hi there, I'm Yashwanth Raj Varadharajan! 👋
-I am a graduate student pursuing a Master of Science in Computer Science at George Washington University, with a strong background in Full Stack Development and hands on experience in leading technical projects. My expertise spans Software Engineering, Generative AI, Machine Learning, and Problem-Solving.
+I'm a Software Engineer focused on building scalable and user friendly applications for web and mobile. I hold a Master of Science in Computer Science and am passionate about creating fast, reliable software that is well designed, easy to maintain, and solves real world problems.
 
 LinkedIn: https://www.linkedin.com/in/v-yashwanth-raj/
 <br>
