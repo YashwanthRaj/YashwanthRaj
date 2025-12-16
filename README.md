@@ -3,8 +3,6 @@ I'm a Software Engineer focused on building scalable and user friendly applicati
 
 LinkedIn: https://www.linkedin.com/in/v-yashwanth-raj/
 <br>
-Portfolio: https://yashwanthraj.github.io/YashwanthRaj/
-<br>
 Google Scholar: https://scholar.google.com/citations?user=OtbodrAAAAAJ&hl=en
 <br>
 
